@@ -16,6 +16,6 @@ describe("demo", () => {
     const container = document.createElement("div")
     await simulate.sleep(10)
     renderedComp.triggerLifeTime("show")
-    expect(renderedComp.querySelector("#text").dom.textContent).toBe("1")
+    expect(renderedComp.querySelector("#text").dom.textContent).toBe("hello world")
   })
 })
